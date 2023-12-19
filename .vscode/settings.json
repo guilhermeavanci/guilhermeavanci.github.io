@@ -1,22 +1,28 @@
 {
   "editor.codeActionsOnSave": {
-	  "source.fixAll.eslint": true
-	},
-	"eslint.format.enable": true,
-	"eslint.validate": ["javascript", "typescript", "javascriptreact", "html", "typescriptreact"],
-	"eslint.packageManager": "npm",
-	"editor.tabSize": 4,
-	"editor.insertSpaces": true,
-	"files.insertFinalNewline": true,
-	"[typescriptreact]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[typescript]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
-	"[scss]": {
-	  "editor.defaultFormatter": "esbenp.prettier-vscode"
-	},
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "html", "typescriptreact"],
+  "eslint.packageManager": "npm",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true
 }
