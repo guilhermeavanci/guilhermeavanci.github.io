@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import '/src/app.css'
+import 'app.css'
 
 type Theme = 'emerald' | 'synthwave'
 
