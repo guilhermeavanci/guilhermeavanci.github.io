@@ -33,6 +33,7 @@ module.exports = {
     ]
   },
   resolve: {
+    preferRelative: true,
     extensions: ['.js', '.jsx', '.tsx', '.ts']
   },
   plugins: [
