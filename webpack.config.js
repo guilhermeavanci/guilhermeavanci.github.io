@@ -2,6 +2,8 @@
 let path = require('path')
 // eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
 let HtmlWebpackPlugin = require('html-webpack-plugin')
+// eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
+let CopyPlugin = require('copy-webpack-plugin')
 
 // eslint-disable-next-line no-undef
 module.exports = {
@@ -24,11 +26,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: [
-          'style-loader',
-          { loader: 'css-loader', options: { importLoaders: 1 } },
-          'postcss-loader'
-        ]
+        use: ['style-loader', 'css-loader', 'postcss-loader']
       }
     ]
   },
@@ -39,6 +37,11 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html'
+    }),
+    new CopyPlugin({
+      patterns: [
+          { from: 'public', to: '' }
+      ]
     })
   ]
 }
