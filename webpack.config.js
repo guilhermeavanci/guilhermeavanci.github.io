@@ -2,8 +2,6 @@
 let path = require('path')
 // eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
 let HtmlWebpackPlugin = require('html-webpack-plugin')
-// eslint-disable-next-line @typescript-eslint/no-var-requires, no-undef
-let CopyPlugin = require('copy-webpack-plugin')
 
 // eslint-disable-next-line no-undef
 module.exports = {
@@ -38,10 +36,5 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: 'src/index.html'
     })
-    // new CopyPlugin({
-    //   patterns: [
-    //       { from: 'public', to: '' }
-    //   ]
-    // })
   ]
 }

@@ -4,15 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "deploy": "run-s build gh-pages:deploy",
-    "gh-pages:deploy": "gh-pages -d dist",
-    "dev": "run-s tailwind webpack:dev",
-    "prod": "run-s build start",
-    "build": "run-s tailwind webpack:build",
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
     "start": "serve dist",
-    "webpack:dev": "webpack serve --mode=development",
-    "webpack:build": "webpack --mode=production",
-    "tailwind": "tailwindcss build src/app.css -o public/app.css"
+    "prod": "run-s build start"
   },
   "dependencies": {
     "react": "18.2.0",
@@ -35,7 +30,6 @@
     "babel-loader": "^9.1.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "daisyui": "^4.4.20",
     "eslint": "^8.56.0",
