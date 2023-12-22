@@ -2,7 +2,7 @@
 module.exports = {
     content: ['./src/**/*.{js,ts,jsx,tsx}'],
     // eslint-disable-next-line no-undef
-    plugins: [require('daisyui')],
+    plugins: [require('@tailwindcss/typography'), require('daisyui')],
     // daisyUI config (optional - here are the default values)
     daisyui: {
         themes: ['emerald', 'synthwave'], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
