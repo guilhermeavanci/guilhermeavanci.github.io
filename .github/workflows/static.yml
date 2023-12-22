@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          # Upload entire repository
+          # Using path as suggested here: https://gist.github.com/cobyism/4730490?permalink_comment_id=4701969#gistcomment-4701969
           path: './dist'
       - name: Deploy to GitHub Pages
         id: deployment
