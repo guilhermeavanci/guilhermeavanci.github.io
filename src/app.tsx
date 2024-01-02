@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import Timeline from 'timeline'
 import 'app.css'
-
-type Theme = 'emerald' | 'synthwave'
+import Timeline from 'timeline'
 
 const App = () => {
   const [theme, setTheme] = useState<Theme>(
     (() => {
-      const current = localStorage.getItem('theme')
-      return (current as Theme) || 'synthwave'
+      const current = localStorage.getItem('theme') as Theme
+      return current || 'forest'
     })()
   )
 
@@ -20,20 +18,20 @@ const App = () => {
 
   return (
     <div>
-      <div className='navbar bg-primary'>
+      <div className='navbar w-full sticky top-0 z-30 bg-primary bg-opacity-90 backdrop-blur transition-shadow duration-100 [transform:translate3d(0,0,0)]'>
         <div className='flex-1'>
           <a className='btn btn-ghost text-xl' href='/'>
-            avanci.dev - WIP
+            avanci.dev
           </a>
         </div>
         <div className='flex-none'>
-          <label className='swap swap-rotate'>
-            {/* this hidden checkbox controls the state */}
+          {/* Adding "mr-px" to prevent icon rotation from creating a horizontal scroll */}
+          <label className='swap swap-rotate mr-px'>
             <input
               type='checkbox'
               className='theme-controller'
               checked={theme === 'emerald'}
-              onChange={e => setTheme(e.target.checked ? 'emerald' : 'synthwave')}
+              onChange={e => setTheme(e.target.checked ? 'emerald' : 'forest')}
             />
 
             {/* moon icon */}

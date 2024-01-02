@@ -1,25 +1,25 @@
 .type {
-    font-family: monospace;
-    color:#0000 !important;
-    background:
-      linear-gradient(-90deg, oklch(var(--nc)) 10px,#0000 0) 10px 0,
-      linear-gradient(oklch(var(--nc)) 0 0) 0 0;
-    background-size:calc(var(--text-length)*1ch) 200%;
-    -webkit-background-clip:padding-box,text;
-    background-clip:padding-box,text;
-    background-repeat:no-repeat;
-    animation: 
-     b .7s infinite steps(1),   
-     t calc(var(--text-length)*.1s) steps(var(--text-length)) forwards;
+  font-family: monospace;
+  color: #0000 !important;
+  background: linear-gradient(-90deg, oklch(var(--nc)) 10px, #0000 0) 10px 0, linear-gradient(oklch(var(--nc)) 0 0) 0 0;
+  background-size: calc(var(--text-length) * 1ch) 200%;
+  -webkit-background-clip: padding-box, text;
+  background-clip: padding-box, text;
+  background-repeat: no-repeat;
+  animation: b 0.7s infinite steps(1), t calc(var(--text-length) * 0.1s) steps(var(--text-length)) forwards;
+}
+
+@keyframes t {
+  from {
+    background-size: 0 200%;
   }
-  
-  @keyframes t{
-    from {background-size:0 200%}
+}
+@keyframes b {
+  50% {
+    background-position: 0 -100%, 0 0;
   }
-  @keyframes b{
-    50% {background-position:0 -100%,0 0}
-  }
-  
+}
+
 .vertical-timeline {
   &:before {
     @apply bg-base-content;
@@ -27,14 +27,23 @@
 }
 
 .timeline-item {
-    .vertical-timeline-element-content {
-        @apply bg-neutral;
-    }
-    .vertical-timeline-element-content-arrow {
-        @apply border-r-neutral;
-        border-width: 14px;
-    }
-    .vertical-timeline-element-icon {
-      box-shadow: 0 0 0 4px oklch(var(--bc)), inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05);
-    }
+  .vertical-timeline-element-content {
+    @apply bg-neutral;
+  }
+  .vertical-timeline-element-content-arrow {
+    @apply border-r-neutral;
+    border-width: 14px;
+  }
+  .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px oklch(var(--bc)), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.test {
+  transform-origin: top left;
+  transition: 0.5s ease-in-out;
+  background-color: #ff00ff;
+  &:hover {
+    scale: 1 2;
+  }
 }

@@ -15,7 +15,6 @@ interface IBasics {
     summary: string;
     location: ILocation;
     profiles: any[];
-    phone: string;
 }
 interface ILocation {
     address: string;

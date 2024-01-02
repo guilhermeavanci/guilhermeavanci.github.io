@@ -13,8 +13,7 @@
       "countryCode": "",
       "region": ""
     },
-    "profiles": [],
-    "phone": "+55 19 99326-3488"
+    "profiles": []
   },
   "work": [
     {
@@ -22,7 +21,7 @@
       "position": "Software Developer",
       "website": "",
       "startDate": "2023-04-01",
-      "summary": "Technologies and responsabilities: Next.js, React.js, Typescript, React Context API, HTML, CSS, Flexbox, CSS Grid Layout, and REST API. Working as the only software engineer on the web platform, built up the entire code base from the first day until its release on production 3 months later. Had many challenges using Next.js 13+ since this version changed the main architecture approach and it was my first time working with Next.js at all.  Projects: Web platform for brands to find creators that match the passed product campaign parameters, all that through AI on the backend.  Company business model: Platform to connect creators and brands looking for some influential personalities to spread their products.",
+      "summary": "Role: Working as the only software engineer on the web platform, built up the entire code base from the first day until its release on production 3 months later. Had many challenges using Next.js 13+ since this version changed the main architecture approach and it was my first time working with Next.js at all. ~ Skills: Next.js, React.js, Typescript, React Context API, HTML, CSS, Flexbox, CSS Grid Layout, and REST API. ~ Projects: Web platform for brands to find creators that match the passed product campaign parameters, all that through AI on the backend. ~ Company business model: Platform to connect creators and brands looking for some influential personalities to spread their products.",
       "highlights": []
     },
     {
@@ -30,7 +29,7 @@
       "position": "Lead Software Engineer",
       "website": "",
       "startDate": "2021-05-01",
-      "summary": "Technologies and responsabilities: React.js, Typescript, Redux.js, HTML, CSS, Flexbox, CSS Grid Layout, REST API, GraphQL, Flutter, and Dart. Worked as software engineer coding key features and as technical lead on a 4 engineers team organizing the development workflow using Scrum and reporting the tech team results to other leaders and stakeholders.  Projects: Hybrid mobile app to truck drivers manage their bank accounts. Web application for gas stations manage their bank accounts. Web application for bank branches manage the money exchange on receivable assets.  Company business model: Fintech for truck drivers, gas stations and carrier companies.",
+      "summary": "Role: Worked as software engineer coding key features and as technical lead on a 4 engineers team organizing the development workflow using Scrum and reporting the tech team results to other leaders and stakeholders. ~ Skills: React.js, Typescript, Redux.js, HTML, CSS, Flexbox, CSS Grid Layout, REST API, GraphQL, Flutter, and Dart. ~ Projects: Hybrid mobile app to truck drivers manage their bank accounts. Web application for gas stations manage their bank accounts. Web application for bank branches manage the money exchange on receivable assets. ~ Company business model: Fintech for truck drivers, gas stations and carrier companies.",
       "highlights": [],
       "endDate": "2023-02-01"
     },
@@ -39,7 +38,7 @@
       "position": "Software Developer Engineer",
       "website": "",
       "startDate": "2019-11-01",
-      "summary": "Technologies: React.js, Typescript, Redux.js, Javascript, HTML, and SASS.  Projects: Web application to group orders of shopping centers and areas with high population density. Backoffice web application to manage scheduled orders. Refactor to microfrontend of the fleet back office web application.  Company business model: Leading food delivery company in Brazil focused on improving restaurants, consumers, and delivery bikers' experience.",
+      "summary": "Skills: React.js, Typescript, Redux.js, Javascript, HTML, and SASS. ~ Projects: Web application to group orders of shopping centers and areas with high population density. Backoffice web application to manage scheduled orders. Refactor to microfrontend of the fleet back office web application. ~ Company business model: Leading food delivery company in Brazil focused on improving restaurants, consumers, and delivery bikers' experience.",
       "highlights": [],
       "endDate": "2021-05-01"
     },
@@ -48,7 +47,7 @@
       "position": "Software Developer",
       "website": "",
       "startDate": "2018-02-01",
-      "summary": "Technologies: React.js, Javascript, HTML, and SASS.  Projects: Web application used by restaurants to manage the received orders. Web application to group orders of shopping centers and areas with high population density. Android application to help the messenger persona to get orders at restaurants and move them to the group order spots.  Company business model: International logistic company at the time working on projects with synergy with iFood.",
+      "summary": "Skills: React.js, Javascript, HTML, and SASS. ~ Projects: Web application used by restaurants to manage the received orders. Web application to group orders of shopping centers and areas with high population density. Android application to help the messenger persona to get orders at restaurants and move them to the group order spots. ~ Company business model: International logistic company at the time working on projects with synergy with iFood.",
       "highlights": [],
       "endDate": "2019-11-01"
     },
@@ -57,7 +56,7 @@
       "position": "Full-stack Developer",
       "website": "",
       "startDate": "2015-01-01",
-      "summary": "Technologies: Java, Objective-C, Javascript, EJS, CSS, and HTML.  Projects: Android application used by food consumers to find restaurants in the surroundings and purchase food delivery. iOS application used by restaurants and logistic operators to track their relevant data. Web application used by restaurants to manage the received orders.  Company business model: Small food delivery startup, later bought by Maplink.",
+      "summary": "Skills: Java, Objective-C, Javascript, EJS, CSS, and HTML. ~ Projects: Android application used by food consumers to find restaurants in the surroundings and purchase food delivery. iOS application used by restaurants and logistic operators to track their relevant data. Web application used by restaurants to manage the received orders. ~ Company business model: Small food delivery startup, later bought by Maplink.",
       "highlights": [],
       "endDate": "2019-11-01"
     },
