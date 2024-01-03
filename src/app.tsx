@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import 'app.css'
-import Timeline from 'timeline'
+import Timeline from 'timeline/timeline'
 
 const App = () => {
   const [theme, setTheme] = useState<Theme>(

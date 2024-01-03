@@ -1,5 +1,9 @@
-import path from 'path'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
+import { fileURLToPath } from 'url'
+import path, { dirname } from 'path'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 export default {
   entry: './src/index.tsx',
@@ -26,8 +30,8 @@ export default {
     ]
   },
   resolve: {
-    preferRelative: true,
-    extensions: ['.js', '.jsx', '.tsx', '.ts']
+    extensions: ['.js', '.jsx', '.tsx', '.ts'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules']
   },
   plugins: [
     new HtmlWebpackPlugin({
