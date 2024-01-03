@@ -1,6 +1,6 @@
 import React, { CSSProperties, useCallback } from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
-import _resume from 'resume.json'
+import _resume from 'resume/_resume.json'
 import 'react-vertical-timeline-component/style.min.css'
 import 'timeline.css'
 import { useMediaQuery } from 'custom-hooks/useMediaQuery'

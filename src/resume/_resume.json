@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Guilherme Avanci Pires",
+    "label": "Software Developer Engineer na Hiperfy",
+    "picture": "https://avatars.githubusercontent.com/u/6515575",
+    "email": "",
+    "website": "",
+    "summary": "TL;DR; Next.js, React.js, Redux.js, Typescript, SASS, CSS, HTML, Flutter, and more. ~ I have a strong passion for working with technology and problem-solving through programming. I find the challenge of finding efficient solutions to complex problems exhilarating and am always looking to improve my skills. I consider myself a professional with a lot of synergy with the product and design processes which helps out the professional dynamic between those fields and the projects I work on as a software developer.",
+    "location": { "address": "", "postalCode": "", "city": "", "countryCode": "", "region": "" },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "hiperfy",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2023-04-01",
+      "summary": "Role: Working as the only software engineer on the web platform, built up the entire code base from the first day until its release on production 3 months later. Had many challenges using Next.js 13+ since this version changed the main architecture approach and it was my first time working with Next.js at all. ~ Skills: Next.js, React.js, Typescript, React Context API, HTML, CSS, Flexbox, CSS Grid Layout, and REST API. ~ Projects: Web platform for brands to find creators that match the passed product campaign parameters, all that through AI on the backend. ~ Company business model: Platform to connect creators and brands looking for some influential personalities to spread their products.",
+      "highlights": []
+    },
+    {
+      "company": "DieselBank",
+      "position": "Lead Software Engineer",
+      "website": "",
+      "startDate": "2021-05-01",
+      "summary": "Role: Worked as software engineer coding key features and as technical lead on an 4 engineers team organizing the development workflow using Scrum and reporting the tech team results to other leaders and stakeholders. ~ Skills: React.js, Typescript, Redux.js, HTML, CSS, Flexbox, CSS Grid Layout, REST API, GraphQL, Flutter, and Dart. ~ Projects: Hybrid mobile app to help truck drivers manage their bank accounts. Web application for gas stations to manage their bank accounts. Web application for bank branches to manage the money exchange on receivable assets. ~ Company business model: Fintech for truck drivers, gas stations, and carrier companies.",
+      "highlights": [],
+      "endDate": "2023-02-01"
+    },
+    {
+      "company": "iFood",
+      "position": "Software Developer Engineer",
+      "website": "",
+      "startDate": "2019-11-01",
+      "summary": "Skills: React.js, Typescript, Redux.js, Javascript, HTML, and SASS. ~ Projects: Web application to group orders of shopping centers and areas with high population density. Backoffice web application to manage scheduled orders. Refactor to microfrontend of the fleet back office web application. ~ Company business model: Leading food delivery company in Brazil focused on improving restaurants, consumers, and delivery bikers' experience.",
+      "highlights": [],
+      "endDate": "2021-05-01"
+    },
+    {
+      "company": "Maplink",
+      "position": "Software Developer",
+      "website": "",
+      "startDate": "2018-02-01",
+      "summary": "Skills: React.js, Javascript, HTML, and SASS. ~ Projects: Web application used by restaurants to manage the received orders. Web application to group orders of shopping centers and areas with high population density. Android application to help the messenger persona to get orders at restaurants and move them to the group order spots. ~ Company business model: International logistic company at the time working on projects with synergy with iFood.",
+      "highlights": [],
+      "endDate": "2019-11-01"
+    },
+    {
+      "company": "Clube da Entrega",
+      "position": "Full-stack Developer",
+      "website": "",
+      "startDate": "2015-01-01",
+      "summary": "Skills: Java, Objective-C, Javascript, EJS, CSS, and HTML. ~ Projects: Android application used by food consumers to find restaurants in the surroundings and purchase food delivery. iOS application used by restaurants and logistic operators to track their relevant data. Web application used by restaurants to manage the received orders. ~ Company business model: Small food delivery startup, later bought by Maplink.",
+      "highlights": [],
+      "endDate": "2019-11-01"
+    },
+    {
+      "company": "Empresa Brasileira de Pesquisa agropecuaria - Embrapa",
+      "position": "Mobile Software Developer Trainee",
+      "website": "",
+      "startDate": "2014-08-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2014-12-01"
+    },
+    {
+      "company": "Add Solutions Gestão e Tecnologia",
+      "position": "IT Technician",
+      "website": "",
+      "startDate": "2011-01-01",
+      "summary": "",
+      "highlights": [],
+      "endDate": "2011-06-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Brazilian Education Program for iOS Development",
+      "area": "",
+      "studyType": "iOS Developer",
+      "startDate": "2012-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2014-12-31"
+    },
+    {
+      "institution": "Fatec Americana \"Ministro Ralph Biasi\"",
+      "area": "",
+      "studyType": "Systems Analyst",
+      "startDate": "2010-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2014-12-31"
+    },
+    {
+      "institution": "ETEC Polivalente de Americana",
+      "area": "",
+      "studyType": "Computer Technician",
+      "startDate": "2008-12-31",
+      "gpa": "",
+      "courses": [],
+      "endDate": "2010-12-31"
+    }
+  ],
+  "skills": [
+    { "name": "Web Engineering", "level": "", "keywords": [] },
+    { "name": "Next.js", "level": "", "keywords": [] },
+    { "name": "Next.js App Dir", "level": "", "keywords": [] },
+    { "name": "Team Leadership", "level": "", "keywords": [] },
+    { "name": "React.js", "level": "", "keywords": [] },
+    { "name": "TypeScript", "level": "", "keywords": [] },
+    { "name": "Redux.js", "level": "", "keywords": [] },
+    { "name": "HTML5", "level": "", "keywords": [] },
+    { "name": "HTML", "level": "", "keywords": [] },
+    { "name": "SASS", "level": "", "keywords": [] },
+    { "name": "CSS Flexbox", "level": "", "keywords": [] },
+    { "name": "CSS Grid Layout", "level": "", "keywords": [] },
+    { "name": "GraphQL", "level": "", "keywords": [] },
+    { "name": "API REST", "level": "", "keywords": [] },
+    { "name": "ESLint", "level": "", "keywords": [] },
+    { "name": "Delphi", "level": "", "keywords": [] },
+    { "name": "Scrum", "level": "", "keywords": [] },
+    { "name": "JIRA", "level": "", "keywords": [] },
+    { "name": "Confluence", "level": "", "keywords": [] },
+    { "name": "Pascal", "level": "", "keywords": [] },
+    { "name": "C (linguagem de programação)", "level": "", "keywords": [] },
+    { "name": "Dart", "level": "", "keywords": [] },
+    { "name": "Flutter", "level": "", "keywords": [] },
+    { "name": "Android", "level": "", "keywords": [] },
+    { "name": "iOS", "level": "", "keywords": [] },
+    { "name": "iOS Design", "level": "", "keywords": [] },
+    { "name": "Objective-C", "level": "", "keywords": [] },
+    { "name": "Java", "level": "", "keywords": [] },
+    { "name": "CSS", "level": "", "keywords": [] },
+    { "name": "PHP", "level": "", "keywords": [] },
+    { "name": "MySQL", "level": "", "keywords": [] },
+    { "name": "JavaScript", "level": "", "keywords": [] },
+    { "name": "C", "level": "", "keywords": [] },
+    { "name": "C#", "level": "", "keywords": [] },
+    { "name": "Photoshop", "level": "", "keywords": [] },
+    { "name": "Git", "level": "", "keywords": [] }
+  ],
+  "languages": [
+    { "language": "Português", "fluency": "Native or bilingual proficiency" },
+    { "language": "Inglês", "fluency": "Professional working proficiency" }
+  ],
+  "projects": [
+    {
+      "name": "Sangue Bom",
+      "startDate": "2014-06-01",
+      "summary": "Imagine um mundo onde todos podem encontrar ajuda quando eles precisam, criar campanhas comunitárias, convidar as pessoas para essas campanhas, fazer parte de campanhas de outras pessoas, encontrar lugares de doação, organizar seu calendário com os eventos da comunidade, encontrar informações sobre doação, interagir com outros doadores e pessoas em busca de ajuda, e o mais importante, ajudar as pessoas! Você pode encontrar este mundo dentro do aplicativo Sangue Bom! Aqui você pode interagir com todos os usuários e compartilhar o sentimento de ser uma pessoa que está tentando salvar vidas! Sangue Bom é um aplicativo que tem como objetivo conectar doadores e as pessoas que necessitam de doação de sangue, oferecendo ferramentas para atrair os doadores e também proporcionando às pessoas que precisam de doação a oportunidade de encontrar pessoas dispostas a ajudar. Faça um mundo melhor, venha ser um de nós.",
+      "url": "https://itunes.apple.com/br/app/sangue-bom/id944106618?mt=8"
+    },
+    {
+      "name": "Uni LIBRAS",
+      "startDate": "2014-06-01",
+      "summary": "O UniLibras é um dicionário com índice em Libras desenvolvido especialmente para pessoas com deficiência auditiva. Este aplicativo permite que o usuário encontre palavras através da liguagem brasileira de sinais obtendo vídeos, fotos e palavras em português, além de oferecer opções de busca na internet, auxiliando na sua comunicação em determinados momentos.   -> Busca com índice em Libras;  -> Busca com índice em Português;  -> Vídeos com intérprete de Libras;  -> Busca por mais resultados na internet (é necessário acesso a internet);",
+      "url": "https://itunes.apple.com/br/app/uni-libras/id922057305?mt=8"
+    }
+  ]
+}
