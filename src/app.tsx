@@ -1,6 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import 'app.css'
-import Timeline from 'timeline/timeline'
+import Timeline from 'pages/timeline'
+import _resume from 'resume/_resume.json'
+import Basics from 'pages/basics'
+
+const resume: IResume = _resume
 
 const App = () => {
   const [theme, setTheme] = useState<Theme>(
@@ -46,7 +50,8 @@ const App = () => {
           </label>
         </div>
       </div>
-      <Timeline />
+      <Basics theme={theme} resume={resume} />
+      <Timeline resume={resume} />
     </div>
   )
 }

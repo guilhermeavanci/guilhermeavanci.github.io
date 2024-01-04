@@ -1,8 +1,7 @@
-import React, { CSSProperties, useCallback } from 'react'
+import React, { CSSProperties } from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
-import _resume from 'resume/_resume.json'
 import 'react-vertical-timeline-component/style.min.css'
-import 'timeline/timeline.css'
+import 'pages/timeline/style.css'
 import { useMediaQuery } from 'custom-hooks/useMediaQuery'
 import hiperfy from 'assets/company/hiperfy.jpeg'
 import dieselbank from 'assets/company/dieselbank.jpeg'
@@ -10,8 +9,9 @@ import ifood from 'assets/company/ifood.jpeg'
 import maplink from 'assets/company/maplink.jpeg'
 import clubedaentrega from 'assets/company/clubedaentrega.jpeg'
 import empresabrasileiradepesquisaagropecuariaembrapa from 'assets/company/empresabrasileiradepesquisaagropecuariaembrapa.jpeg'
+import { getSkillBtnClass } from 'utils/skill-class'
 
-export interface MyCustomCSS extends CSSProperties {
+export interface CustomCSS extends CSSProperties {
   '--text-length': number
 }
 
@@ -21,8 +21,6 @@ type ParsedSummary = {
   companyBusinessModel?: string
   skills?: string[]
 }
-
-const resume: IResume = _resume
 
 const formatDate = (dateStr: string) => {
   const date = new Date(dateStr),
@@ -65,33 +63,10 @@ const getParsedSummary = (summary: string): ParsedSummary => {
   return parsedSummary
 }
 
-const Timeline = () => {
-  const isDoubleColumn = useMediaQuery('(min-width: 1170px)')
+type Props = { resume: IResume }
 
-  const getSkillBtnClass = useCallback(
-    (skill: string) =>
-      ({
-        'Next.js': 'btn-skill-nextjs',
-        'React.js': 'btn-skill-reactjs',
-        Typescript: 'btn-skill-typescript',
-        'React Context API': 'btn-skill-reactjs',
-        HTML: 'btn-skill-html',
-        CSS: 'btn-skill-css',
-        Flexbox: 'btn-skill-css',
-        'CSS Grid Layout': 'btn-skill-css',
-        'REST API': 'btn-skill-rest',
-        'Redux.js': 'btn-skill-redux',
-        GraphQL: 'btn-skill-graphql',
-        Flutter: 'btn-skill-flutter',
-        Dart: 'btn-skill-dart',
-        Javascript: 'btn-skill-javascript',
-        SASS: 'btn-skill-sass',
-        Java: 'btn-skill-java',
-        'Objective-C': 'btn-skill-objective-c',
-        EJS: 'btn-skill-ejs'
-      }[skill] || 'btn-neutral-content'),
-    [isDoubleColumn]
-  )
+const Timeline = ({ resume }: Props) => {
+  const isDoubleColumn = useMediaQuery('(min-width: 1170px)')
 
   return (
     <div className='prose min-w-full'>
@@ -119,7 +94,7 @@ const Timeline = () => {
                 style={
                   {
                     '--text-length': w.position.length
-                  } as MyCustomCSS
+                  } as CustomCSS
                 }>
                 {w.position}
               </h3>
