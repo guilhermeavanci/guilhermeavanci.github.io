@@ -57,20 +57,30 @@ export function Basics({ theme, resume }: Props) {
         {isDarkMode(theme) ? <MatrixParticles className='h-full' /> : <GraphParticles className='h-full' />}
       </div>
       <div className='hero min-h-screen bg-base-300'>
-        <div className='hero-content max-w-prose flex-col lg:flex-row lg:items-start'>
-          <img className='mask mask-squircle h-40 w-40 shadow-2xl m-8 lg:mt-0' src={resume.basics.picture} />
-          <div className='text-center lg:text-start'>
-            <h1>{resume.basics.name}</h1>
-            <p>{description}</p>
-            {tldr && (
-              <div className='w-full py-4 flex gap-2 flex-wrap'>
-                {tldr.map(s => (
-                  <button key={s} className={`btn btn-xs ${getSkillBtnClass(s)}`}>
-                    {s}
-                  </button>
-                ))}
-              </div>
-            )}
+        <div className='hero-content max-w-prose p-8'>
+          <div
+            className='card glass p-8 flex-col items-center lg:flex-row lg:items-start'
+            style={{
+              '--glass-blur': '10px',
+              '--glass-reflex-opacity': 0.03
+            }}>
+            <img
+              className='mask mask-squircle h-40 w-40 shadow-2xl m-0 mb-8 lg:m-0 lg:mr-8'
+              src={resume.basics.picture}
+            />
+            <div className='text-center lg:text-start'>
+              <h1>{resume.basics.name}</h1>
+              <p>{description}</p>
+              {tldr && (
+                <div className='w-full py-4 flex gap-2 flex-wrap'>
+                  {tldr.map(s => (
+                    <button key={s} className={`btn btn-xs ${getSkillBtnClass(s)}`}>
+                      {s}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>

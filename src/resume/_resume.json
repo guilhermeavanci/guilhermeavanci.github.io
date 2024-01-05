@@ -1,13 +1,17 @@
 {
   "basics": {
     "name": "Guilherme Avanci",
-    "label": "Software Developer Engineer na Hiperfy",
+    "label": "Software Developer Engineer",
     "picture": "https://avatars.githubusercontent.com/u/6515575",
-    "email": "",
-    "website": "",
+    "email": "guilhermeavancip@gmail.com",
+    "website": "https://avanci.dev",
     "summary": "TL;DR; Next.js, React.js, Redux.js, Typescript, SASS, CSS, HTML, Flutter, and more. ~ I have a strong passion for working with technology and problem-solving through programming. I find the challenge of finding efficient solutions to complex problems exhilarating and am always looking to improve my skills. I consider myself a professional with a lot of synergy with the product and design processes which helps out the professional dynamic between those fields and the projects I work on as a software developer.",
     "location": { "address": "", "postalCode": "", "city": "", "countryCode": "", "region": "" },
-    "profiles": []
+    "profiles": [
+      { "network": "LinkedIn", "username": "guilhermeavancip", "url": "https://www.linkedin.com/in/guilhermeavancip" },
+      { "network": "GitHub", "username": "guilhermeavanci", "url": "https://github.com/guilhermeavanci" }
+    ],
+    "phone": "+55 19 99326-3488"
   },
   "work": [
     {
@@ -16,7 +20,8 @@
       "website": "",
       "startDate": "2023-04-01",
       "summary": "Role: Working as the only software engineer on the web platform, built up the entire code base from the first day until its release on production 3 months later. Had many challenges using Next.js 13+ since this version changed the main architecture approach and it was my first time working with Next.js at all. ~ Skills: Next.js, React.js, Typescript, React Context API, HTML, CSS, Flexbox, CSS Grid Layout, and REST API. ~ Projects: Web platform for brands to find creators that match the passed product campaign parameters, all that through AI on the backend. ~ Company business model: Platform to connect creators and brands looking for some influential personalities to spread their products.",
-      "highlights": []
+      "highlights": [],
+      "endDate": "2023-12-01"
     },
     {
       "company": "DieselBank",

@@ -14,7 +14,8 @@ interface IBasics {
     website: string;
     summary: string;
     location: ILocation;
-    profiles: any[];
+    profiles: IProfilesItem[];
+    phone: string;
 }
 interface ILocation {
     address: string;
@@ -23,6 +24,11 @@ interface ILocation {
     countryCode: string;
     region: string;
 }
+interface IProfilesItem {
+    network: string;
+    username: string;
+    url: string;
+}
 interface IWorkItem {
     company: string;
     position: string;
@@ -30,7 +36,7 @@ interface IWorkItem {
     startDate: string;
     summary: string;
     highlights: any[];
-    endDate?: string;
+    endDate: string;
 }
 interface IEducationItem {
     institution: string;

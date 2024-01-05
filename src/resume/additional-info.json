@@ -1,5 +1,18 @@
 {
   "basics": {
-    "picture": "https://avatars.githubusercontent.com/u/6515575"
+    "picture": "https://avatars.githubusercontent.com/u/6515575",
+    "email": "guilhermeavancip@gmail.com",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "guilhermeavancip",
+        "url": "https://www.linkedin.com/in/guilhermeavancip"
+      },
+      {
+        "network": "GitHub",
+        "username": "guilhermeavanci",
+        "url": "https://github.com/guilhermeavanci"
+      }
+    ]
   }
 }

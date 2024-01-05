@@ -1,4 +1,4 @@
-import React, { CSSProperties } from 'react'
+import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import 'pages/timeline/style.css'
@@ -10,10 +10,6 @@ import maplink from 'assets/company/maplink.jpeg'
 import clubedaentrega from 'assets/company/clubedaentrega.jpeg'
 import empresabrasileiradepesquisaagropecuariaembrapa from 'assets/company/empresabrasileiradepesquisaagropecuariaembrapa.jpeg'
 import { getSkillBtnClass } from 'utils/skill-class'
-
-export interface CustomCSS extends CSSProperties {
-  '--text-length': number
-}
 
 type ParsedSummary = {
   role?: string
@@ -91,11 +87,9 @@ const Timeline = ({ resume }: Props) => {
               }>
               <h3
                 className='type'
-                style={
-                  {
-                    '--text-length': w.position.length
-                  } as CustomCSS
-                }>
+                style={{
+                  '--text-length': w.position.length
+                }}>
                 {w.position}
               </h3>
 

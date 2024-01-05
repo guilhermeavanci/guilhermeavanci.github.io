@@ -3,6 +3,7 @@ import 'app.css'
 import Timeline from 'pages/timeline'
 import _resume from 'resume/_resume.json'
 import Basics from 'pages/basics'
+import Footer from 'pages/footer'
 
 const resume: IResume = _resume
 
@@ -52,6 +53,7 @@ const App = () => {
       </div>
       <Basics theme={theme} resume={resume} />
       <Timeline resume={resume} />
+      <Footer resume={resume} />
     </div>
   )
 }
