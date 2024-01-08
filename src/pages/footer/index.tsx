@@ -29,7 +29,7 @@ export default function Footer({ resume }: Props) {
       if (!profiles) return null
       const profile = profiles[profileName]
       return (
-        <a className='fill-current' href={profile.url}>
+        <a className='fill-current' href={profile.url} target='_blank' rel='noreferrer'>
           {
             {
               linkedin: (
